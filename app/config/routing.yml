@@ -1,0 +1,9 @@
+Common:
+    resource: "@CommonBundle/Controller/"
+    type:     annotation 
+Website:
+    resource: "@WebsiteBundle/Controller/"
+    type:     annotation 
+Website_routing:
+    resource: "@WebsiteBundle/Resources/config/routing.yml"
+    prefix:   /
